@@ -1,5 +1,4 @@
-// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
-// SPDX-License-Identifier: MIT-0
+
 import { spawnSync, SpawnSyncOptions } from 'child_process';
 import * as path from 'path';
 import * as apigatewayv2 from '@aws-cdk/aws-apigatewayv2';

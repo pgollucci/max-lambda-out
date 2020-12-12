@@ -1,5 +1,4 @@
-// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
-// SPDX-License-Identifier: MIT-0
+
 import * as codepipeline from '@aws-cdk/aws-codepipeline';
 import * as actions from '@aws-cdk/aws-codepipeline-actions';
 import * as cdk from '@aws-cdk/core';
