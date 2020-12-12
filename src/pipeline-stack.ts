@@ -29,7 +29,7 @@ export class PipelineStack extends cdk.Stack {
         repo: 'max-lambda-out',
         branch: 'master',
       }),
-      synthAction: pipelines.SimpleSynthAction.standardNpmSynth({
+      synthAction: pipelines.SimpleSynthAction.standardYarnSynth({
         sourceArtifact,
         cloudAssemblyArtifact,
         environment: {

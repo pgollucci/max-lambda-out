@@ -21,5 +21,4 @@ const project = new AwsCdkTypeScriptApp({
   ],
 });
 
-project.gitignore.exclude('yarn.lock');
 project.synth();
