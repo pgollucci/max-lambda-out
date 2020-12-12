@@ -10,7 +10,7 @@ import (
 func handler(ctx context.Context, event events.APIGatewayV2HTTPRequest) (events.APIGatewayV2HTTPResponse, error) {
 	return events.APIGatewayV2HTTPResponse{
 		StatusCode: 200,
-		Body:       "Yey, CDK!",
+		Body:       `{ "res": "Yey, CDK!" }`,
 	}, nil
 }
 
