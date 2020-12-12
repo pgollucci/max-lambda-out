@@ -1,4 +1,3 @@
-import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
 import { AppStage } from '../src/app-stage';
 import { PipelineStack } from '../src/pipeline-stack';

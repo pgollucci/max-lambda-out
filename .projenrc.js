@@ -19,6 +19,13 @@ const project = new AwsCdkTypeScriptApp({
     '@aws-cdk/aws-codepipeline-actions',
     '@aws-cdk/aws-apigatewayv2-integrations',
   ],
+  context: {
+    "@aws-cdk/core:enableStackNameDuplicates": "true",
+    "aws-cdk:enableDiffNoFail": "true",
+    "@aws-cdk/core:stackRelativeExports": "true",
+    "@aws-cdk/core:newStyleStackSynthesis": "true"
+  },
+  appEntrypoint: 'index.ts'
 });
 
 project.synth();
