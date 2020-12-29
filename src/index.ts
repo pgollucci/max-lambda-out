@@ -8,8 +8,8 @@ const delivery = new PipelineStack(app, 'Api-DeliveryPipeline', {
   name: 'Api',
   env: {
     account: '208334959160',
-    region: 'us-east-1'
-  }
+    region: 'us-east-1',
+  },
 });
 
 delivery.pipeline.addApplicationStage(
@@ -18,5 +18,5 @@ delivery.pipeline.addApplicationStage(
       account: '208334959160',
       region: 'us-east-1',
     },
-  })
+  }),
 );
